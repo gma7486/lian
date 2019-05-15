@@ -103,3 +103,75 @@ header nav ul li:hover .active a{
     transition: 0.3s;
     color: black;
 }
+
+section div .slider1{
+    background-image: url("../images/slider1.png");
+    margin: auto;
+    text-align: center;
+    min-height:650px ;
+}
+section div .slider1 span{
+    font-size:48px ;
+    background-color: black;
+    color: #FFFFFF;
+    padding: 11px 69px 13px 69px;
+    position: relative;
+    top: 263px;
+    margin-bottom:38px ;
+    font-family: 'Roboto', sans-serif;;
+    font-weight: 300;
+}
+section div .slider1 p{
+    font-size: 18px;
+    position: relative;
+    top: 316px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+section div .slider2{
+    background-image: url("../images/slider2.png");
+    min-height: 650px;
+    text-align: center;
+}
+section div .slider2 span{
+    font-size:48px ;
+    background-color: black;
+    color: #FFFFFF;
+    padding: 10px 40px 10px 40px;
+    position: relative;
+    top: 263px;
+    margin-bottom:38px ;
+    font-family: 'Roboto', sans-serif;;
+    font-weight: 300;
+}
+section div .slider2 p{
+    font-size: 18px;
+    position: relative;
+    top: 316px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+section div .slider3{
+    background-image: url("../images/slider1.png");
+    margin: auto;
+    text-align: center;
+    min-height:650px ;
+}
+section div .slider3 span{
+    font-size:48px ;
+    background-color: black;
+    color: #FFFFFF;
+    padding: 10px 40px 10px 40px;
+    position: relative;
+    top: 263px;
+    margin-bottom:38px ;
+    font-family: 'Roboto', sans-serif;;
+    font-weight: 300;
+}
+section div .slider3 p{
+    font-size: 18px;
+    position: relative;
+    top: 316px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
