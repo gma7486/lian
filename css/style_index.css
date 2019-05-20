@@ -104,74 +104,111 @@ header nav ul li:hover .active a{
     color: black;
 }
 
-section div .slider1{
+section div .item{
     background-image: url("../images/slider1.png");
     margin: auto;
     text-align: center;
     min-height:650px ;
 }
-section div .slider1 span{
-    font-size:48px ;
+section div .item .text_banner{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 264px;
+}
+section div .item2 .text_banner{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 264px;
+}
+section div .item .text_banner h1{
+    display: inline-block;
     background-color: black;
+    padding: 0 43px;
+    font-size: 48px;
     color: #FFFFFF;
-    padding: 11px 69px 13px 69px;
-    position: relative;
-    top: 263px;
-    margin-bottom:38px ;
-    font-family: 'Roboto', sans-serif;;
-    font-weight: 300;
 }
-section div .slider1 p{
-    font-size: 18px;
-    position: relative;
-    top: 316px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300;
+section div .item2 .text_banner h2{
+    display: inline-block;
+    background-color: black;
+    padding: 0 43px;
+    font-size: 48px;
+    color: #FFFFFF;
+    margin-top: 20px;
 }
-section div .slider2{
+
+section div .item2{
     background-image: url("../images/slider2.png");
     min-height: 650px;
     text-align: center;
 }
-section div .slider2 span{
-    font-size:48px ;
-    background-color: black;
-    color: #FFFFFF;
-    padding: 10px 40px 10px 40px;
-    position: relative;
-    top: 263px;
-    margin-bottom:38px ;
-    font-family: 'Roboto', sans-serif;;
-    font-weight: 300;
-}
-section div .slider2 p{
+
+section div .item2 .text_banner h3{
     font-size: 18px;
-    position: relative;
-    top: 316px;
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
+    margin-top: 20px;
 }
-section div .slider3{
+section div .item .text_banner h3{
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    margin-top: 20px;
+}
+section div .item{
     background-image: url("../images/slider1.png");
     margin: auto;
     text-align: center;
     min-height:650px ;
 }
-section div .slider3 span{
-    font-size:48px ;
-    background-color: black;
-    color: #FFFFFF;
-    padding: 10px 40px 10px 40px;
-    position: relative;
-    top: 263px;
-    margin-bottom:38px ;
-    font-family: 'Roboto', sans-serif;;
-    font-weight: 300;
+.owl-carousel .owl-dots .owl-dot span{
+    width: 6px;
+    height: 6px;
+    background-color: white;
+    border-radius: 14px;
+    margin: 8px;
+    display: inline-block;
+    border: solid 4px #ffffff;
 }
-section div .slider3 p{
-    font-size: 18px;
-    position: relative;
-    top: 316px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300;
+.owl-carousel .owl-dots{
+    text-align: center;
+    position: absolute;
+    bottom:56px ;
+    width: 100%;
+
 }
+.owl-carousel .owl-nav button.owl-prev, .owl-carousel .owl-nav button.owl-next, .owl-carousel button.owl-dot{
+    background: none;
+    outline: none;
+}
+.owl-carousel .owl-dots .owl-dot.active span {
+    border: solid 4px #000000;
+}
+.owl-carousel .owl-nav .owl-prev{
+    border: solid 4px white!important;
+    border-radius: 20px;
+    position: absolute;
+    bottom: 48%;
+    left: 111px;
+    display: inline-block;
+    width: 40px;
+    height: 44px;
+}
+.owl-carousel .owl-nav .owl-next{
+    border: solid 4px white!important;
+    border-radius: 20px;
+    position: absolute;
+    top: 48%;
+    right: 115px;
+    display: inline-block;
+    width: 40px;
+    height: 44px;
+background-color: black;
+}
+.owl-carousel .owl-nav .owl-next:after{
+    content: "\003e";
+}
+.owl-carousel .owl-nav .owl-prev:after{
+     content: "\003c";
+ }

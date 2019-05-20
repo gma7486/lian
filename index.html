@@ -11,9 +11,25 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
     <link rel="stylesheet" href="css/owl.carousel.css">
     <link rel="stylesheet" href="css/owl.theme.default.css">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="https://resources/demos/style.css">
     <link rel="stylesheet" href="css/style_index.css">
     <script src="js/jquery-2.2.1.min.js"></script>
     <script src="js/owl.carousel.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script>
+        $( function() {
+            $( "#tabs" ).tabs({
+                beforeLoad: function( event, ui ) {
+                    ui.jqXHR.fail(function() {
+                        ui.panel.html(
+                            "Couldn't load this tab. We'll try to fix this as soon as possible. " +
+                            "If this wouldn't be a demo." );
+                    });
+                }
+            });
+        } );
+    </script>
     <script src="js/script.js"></script>
 </head>
 <body>
@@ -55,29 +71,52 @@
     </header>
 <section>
     <div class="owl-carousel">
-        <div class="slider1">
-            <span>
+        <div class="item">
+            <div class="text_banner">
+                <h1>
             Design & Branding
-            </span>
-            <p>
+            </h1>
+            <h3>
                 We Deliver Quality Results
-            </p>
+            </h3>
+            </div>
         </div>
-        <div class="slider2">
-         <span>
+        <div class="item2">
+         <div class="text_banner">
+            <h2>
             Lian Creative Agency
-            </span>
-            <p>
+            </h2>
+            <h3>
                 Minimal Freelance Portfolio
-            </p>
+            </h3>
+         </div>
         </div>
-        <div class="slider3">
-               <span>
-            Design & Branding
-            </span>
-            <p>
-                We Deliver Quality Results
-            </p>
+        <div class="item2">
+               <div class="text_banner">
+                   <h2>
+                       Lian Creative Agency
+                    </h2>
+            <h3>
+                Minimal Freelance Portfolio
+            </h3>
+               </div>
+        </div>
+    </div>
+</section>
+<section>
+    <div class="container">
+        <div id="tabs">
+            <ul>
+                <li><a href="#tabs-1">Preloaded</a></li>
+                <li><a href="ajax/content1.html">Tab 1</a></li>
+                <li><a href="ajax/content2.html">Tab 2</a></li>
+                <li><a href="ajax/content3-slow.php">Tab 3 (slow)</a></li>
+                <li><a href="ajax/content4-broken.php">Tab 4 (broken)</a></li>
+            </ul>
+            <div id="tabs-1">
+                <p>Proin elit arcu, rutrum commodo, vehicula tempus, commodo a, risus. Curabitur nec arcu. Donec sollicitudin mi sit amet mauris. Nam elementum quam ullamcorper ante. Etiam aliquet massa et lorem. Mauris dapibus lacus auctor risus. Aenean tempor ullamcorper leo. Vivamus sed magna quis ligula eleifend adipiscing. Duis orci. Aliquam sodales tortor vitae ipsum. Aliquam nulla. Duis aliquam molestie erat. Ut et mauris vel pede varius sollicitudin. Sed ut dolor nec orci tincidunt interdum. Phasellus ipsum. Nunc tristique tempus lectus.
+                </p>
+            </div>
         </div>
     </div>
 </section>
