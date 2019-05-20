@@ -238,9 +238,19 @@ background-color: black;
     font-size:30px;
 }
 
+.ui-widget.ui-widget-content{
+    border: none;
+}
 .container #tabs ul li:first-child{
-    padding-left: 343px;
+    margin-left:150px ;
 }
 section.container#tabs {
     margin-top: 33px;
+}
+section{
+    margin: auto;
+}
+.ui-widget{
+    color: #e5e3e4;
+    font-family: 'Roboto', sans-serif;
 }
