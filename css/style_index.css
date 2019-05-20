@@ -212,3 +212,35 @@ background-color: black;
 .owl-carousel .owl-nav .owl-prev:after{
      content: "\003c";
  }
+.container #tabs ul {
+    background-color:#ffffff ;
+    border-top:solid 2px #e5e3e4;
+    border-bottom: solid 2px #e5e3e4;
+    border-left: none;
+    border-right:none ;
+}
+.container #tabs ul li{
+    color: #e5e3e4;
+    font-size:14pt ;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    background-color:#ffffff;
+}
+.container #tabs ul li a{
+    color: #e5e3e4;
+}
+.container #tabs ul li:after{
+    content: "/";
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: #e5e3e4;
+    font-size:30px;
+}
+
+.container #tabs ul li:first-child{
+    padding-left: 343px;
+}
+section.container#tabs {
+    margin-top: 33px;
+}
