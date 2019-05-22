@@ -1,0 +1,35 @@
+.ui-accordion .ui-accordion-header{
+    padding: 30px 0px 30px 30px;
+    font-size: 29px;
+    background-color: #fce7f2;
+    color: #860da6;
+}
+p{
+    font-size: 25px;
+}
+.ui-accordion .ui-accordion-header:before{
+    content: "\00B7";
+    vertical-align: middle;
+    font-size: 29px;
+}
+.ui-icon {
+    float: right;
+
+}
+.ui-icon:after {
+    display: block;
+    clear: both;
+}
+.ui-icon, .ui-widget-content .ui-icon{
+    background: url("../images/item.png");
+}
+.ui-accordion-header .ui-corner-top .ui-state-default .ui-accordion-icons .ui-state-hover .ui-accordion-header-active .ui-state-active{
+    background-color:#fef5fa ;
+}
+.ui-icon{
+    width: 15px;
+    height: 27px;
+}
+.ui-state-active .ui-icon, .ui-button:active .ui-icon{
+    background-image: url("../images/arrow_down.png");
+}
