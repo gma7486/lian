@@ -1,0 +1,20 @@
+@import url(css/owl.carousel.css);
+@import url(css/owl.theme.default.css);
+@import url(css/style_index.css);
+@import url(style.css);
+.block_test {
+  height: 100px;
+  background-color: red;
+  color: white;
+  border: solid 10px yellow; }
+  @media screen and (max-width: 767px) {
+    .block_test {
+      width: 300px; } }
+  .block_test p span {
+    color: red; }
+  .block_test p:hover {
+    color: yellow; }
+  .block_test p.active {
+    font-size: 20px; }
+
+/*# sourceMappingURL=style.css.map */
